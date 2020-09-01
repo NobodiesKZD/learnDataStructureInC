@@ -1,0 +1,2 @@
+# learnDataStructureInC
+code about learnDataStructureInC
