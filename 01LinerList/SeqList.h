@@ -1,5 +1,5 @@
 #define LISTSIZE 100
-#define DataType int;
+#define DataType int
 typedef struct{
     DataType list[LISTSIZE];
     int length;
@@ -40,7 +40,7 @@ int locateElem(SeqList L, DataType e){
 
 int inserList(SeqList *L, int i, DataType e){
     if(i < 0 || i > L->list.length){
-        printf("插入位置不合法\n");
+        printf("the insert position is illegeal\n");
         return -1;
     }
     else if(L->length >= LISTSIZE){
